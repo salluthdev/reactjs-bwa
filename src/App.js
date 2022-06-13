@@ -17,7 +17,7 @@ function App() {
 function ProductImage() {
   return (
     <div className="ProductImage">
-      <img src="../img/sneakers-pink.webp" />
+      <img src="img/sneakers-pink.webp" />
     </div>
   );
 }
