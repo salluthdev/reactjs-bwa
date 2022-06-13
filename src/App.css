@@ -1,0 +1,93 @@
+.Container
+{
+  width: 80%;
+  max-width: 700px;
+  margin: 80px auto;
+}
+.Container .ProductWrapper
+{
+  display: flex;
+  gap: 28px;
+}
+.Container .ProductWrapper .ProductImage
+{
+  width: 50%;
+  margin: 0 auto;
+}
+.Container .ProductWrapper .ProductImage img
+{
+  width: 100%;
+}
+.Container .ProductWrapper .ProductDesc
+{
+  flex: 1;
+}
+.Container .ProductWrapper .ProductDesc .Label
+{
+  text-transform: uppercase;
+  color: #acaeb2;
+}
+.Container .ProductWrapper .ProductDesc .Title
+{
+  margin: 0;
+}
+.Container .ProductWrapper .ProductDesc .Price
+{
+  font-size: 20px;
+  font-weight: 500;
+}
+.Container .ProductWrapper .ProductDesc .Info
+{
+  line-height: 1.8;
+  color: rgb(18, 11, 49);
+}
+.Container .ProductWrapper .ProductDesc a
+{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  background: rgb(255, 159, 159);
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  transition: all 0.8s;
+}
+.Container .ProductWrapper .ProductDesc a:hover
+{
+  background: rgb(221, 135, 135);
+}
+.Container .ReviewBox
+{
+  margin-top: 60px;
+}
+.Container .ReviewBox .Item
+{
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 16px 0;
+}
+.Container .ReviewBox .Item img
+{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.Container .ReviewBox .Item h3
+{
+  margin: 8px 0 4px;
+}
+.Container .ReviewBox .Item p
+{
+  margin: unset;
+}
+
+@media (max-width: 721px)
+{
+  .Container .ProductWrapper
+  {
+    flex-direction: column;
+  }
+}
